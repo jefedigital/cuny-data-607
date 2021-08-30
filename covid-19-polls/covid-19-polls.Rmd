@@ -13,7 +13,7 @@ library(tidyverse)
 library(lubridate)
 
 # load data
-polls_adjusted <- read_csv('data/covid_approval_polls_adjusted.csv')
+polls_adjusted <- read_csv('https://raw.githubusercontent.com/jefedigital/cuny-data-607/main/covid-19-polls/data/covid_approval_polls_adjusted.csv')
 df <- select(polls_adjusted, !c(modeldate,multiversions,tracking,timestamp,url))
 
 # rename variables
@@ -45,9 +45,13 @@ FiveThirtyEight publishes a [daily tracker](https://projects.fivethirtyeight.com
 
 Their approach aggregates all available, scientifically-valid surveys from the field, and weights the results from each pollster using a [custom rating formula](https://projects.fivethirtyeight.com/pollster-ratings/) that factors in historical accuracy, adherence to industry best practices, and reliance on landline responses.
 
+Let's take a quick tour.
+
+---
+
 ## Observations
 
-This quick overview uses the **covid_approval_polls_adjusted** [dataset](https://github.com/fivethirtyeight/covid-19-polls) updated on August 25, 2021.  The dataset contains results from 783 distinct surveys from 54 polling firms, beginning February 2, 2020 and ending August 24, 2021.
+This overview uses the **covid_approval_polls_adjusted** [dataset](https://github.com/fivethirtyeight/covid-19-polls) updated on August 25, 2021.  The dataset contains results from 783 distinct surveys from 54 polling firms, beginning February 2, 2020 and ending August 24, 2021.
 
 ```{r eda, include=FALSE}
 # count of polls
@@ -64,8 +68,6 @@ range(df$poll_end) # 2021-08-24
 The survey questions vary slightly among pollsters, but roughly condense to "Do you approve or disapprove of the President's handling of the coronavirus outbreak? (Yes/No)" 
 
 Breakdowns of respondents include political party affiliation (Democratic, Republican, Independent) and voter registration status (Unregistered Adult, Registered Voter, Likely Voter)
-
----
 
 ```{r approval_spread, include=FALSE}
 df_spread_approve <- select(df, c(party,poll_end,approve_adjusted))
@@ -169,4 +171,4 @@ Surprisingly, neither voter registration nor "likely voter" status seemed have a
 
 ## Conclusion
 
-FiveThirtyEight's approach to poll analysis is fascinating.  By acknowledging the biases inherent in different methodologies, capabilities and ideological viewpoints between pollsters, they have built a fairly robust and even-handed model for predicting the outcomes of political contests.  
+FiveThirtyEight's approach to poll analysis is fascinating.  By acknowledging the biases inherent in different methodologies, capabilities and ideological viewpoints between pollsters, they have built a fairly robust and even-handed model for understanding voter sentiment and for predicting electoral outcomes. 
