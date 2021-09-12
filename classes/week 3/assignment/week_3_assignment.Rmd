@@ -6,7 +6,7 @@ output:
   prettydoc::html_pretty:
     theme: leonids
     highlight: github
-  rmarkdown: gtihub_document
+  rmarkdown: github_document
 ---
 
 ### 1. Provide code that identifies the majors that contain either "DATA" or "STATISTICS"

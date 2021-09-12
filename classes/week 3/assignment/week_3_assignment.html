@@ -194,8 +194,8 @@ a.sourceLine {
 <p>Will match the first case where two single characters appear in order, and then appear immediately again in reverse order.</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>s <span class="ot">&lt;-</span> <span class="st">&quot;abba&quot;</span> <span class="co"># example</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">str_view</span>(s, <span class="st">&quot;(.)(.)</span><span class="sc">\\</span><span class="st">2</span><span class="sc">\\</span><span class="st">1&quot;</span>)</span></code></pre></div>
-<div id="htmlwidget-bb07ea00faf17a7f2626" style="width:960px;height:100%;" class="str_view html-widget"></div>
-<script type="application/json" data-for="htmlwidget-bb07ea00faf17a7f2626">{"x":{"html":"<ul>\n  <li><span class='match'>abba<\/span><\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-e8a714515443d76af576" style="width:960px;height:100%;" class="str_view html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e8a714515443d76af576">{"x":{"html":"<ul>\n  <li><span class='match'>abba<\/span><\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="section-2" class="section level4">
 <h4>(..)\1</h4>
@@ -206,16 +206,16 @@ a.sourceLine {
 <p>Will match the first case where a single character appears three times with any other character (except a newline) in between.</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>s <span class="ot">&lt;-</span> <span class="st">&quot;abacab&quot;</span> <span class="co"># example</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">str_view</span>(s, <span class="st">&quot;(.).</span><span class="sc">\\</span><span class="st">1.</span><span class="sc">\\</span><span class="st">1&quot;</span>)</span></code></pre></div>
-<div id="htmlwidget-187b7ff879e40c59ed2c" style="width:960px;height:100%;" class="str_view html-widget"></div>
-<script type="application/json" data-for="htmlwidget-187b7ff879e40c59ed2c">{"x":{"html":"<ul>\n  <li><span class='match'>abaca<\/span>b<\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-b1224b90c921266049a7" style="width:960px;height:100%;" class="str_view html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b1224b90c921266049a7">{"x":{"html":"<ul>\n  <li><span class='match'>abaca<\/span>b<\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="section-4" class="section level4">
 <h4>&quot;(.)(.)(.).*\\3\\2\\1&quot;</h4>
 <p>Will match the first case where a sequence of three characters appear again in reverse order, with any single character (except a newline) in between.</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>s <span class="ot">&lt;-</span> <span class="st">&quot;abcZcba&quot;</span> <span class="co">#example</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">str_view</span>(s, <span class="st">&quot;(.)(.)(.).*</span><span class="sc">\\</span><span class="st">3</span><span class="sc">\\</span><span class="st">2</span><span class="sc">\\</span><span class="st">1&quot;</span>)</span></code></pre></div>
-<div id="htmlwidget-53dcc4b8ad233b6095a1" style="width:960px;height:100%;" class="str_view html-widget"></div>
-<script type="application/json" data-for="htmlwidget-53dcc4b8ad233b6095a1">{"x":{"html":"<ul>\n  <li><span class='match'>abcZcba<\/span><\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-f81c88149c46ce3b1df0" style="width:960px;height:100%;" class="str_view html-widget"></div>
+<script type="application/json" data-for="htmlwidget-f81c88149c46ce3b1df0">{"x":{"html":"<ul>\n  <li><span class='match'>abcZcba<\/span><\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script>
 <hr />
 </div>
 </div>
