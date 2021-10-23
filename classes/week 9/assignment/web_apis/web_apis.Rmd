@@ -1,0 +1,104 @@
+---
+title: "CUNY Data 607 - Web APIs"
+date: "Oct 24, 2021"
+author: "Jeff Parks"
+output:
+  rmdformats::robobook:
+    highlight: kate
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=TRUE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+## Assignment
+The New York Times web site provides a rich set of APIs, as described here: https://developer.nytimes.com/apis. Your task is to choose one of the New York Times APIs, construct an interface in R to read in the JSON data, and transform it into an R DataFrame.
+
+## Setup
+```{r}
+library(tidyverse)
+library(rvest)
+library(tidyjson)
+library(configr)
+```
+
+First we'll use the [**configr**](https://cran.r-project.org/web/packages/configr/vignettes/configr.html) package to load our secret App Key from a configuration file 'config.yml', and constuct a basic API call to the [Times Newswire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) for the twenty most recent articles:
+```{r}
+cfg <- read.config(file = 'config.yml')
+api_endpoint <- 'https://api.nytimes.com/svc/news/v3/content/all/all.json'
+api_url <- str_c(api_endpoint,'?api-key=',cfg$app_key)
+```
+
+## Call API
+Next. we'll call this API endpoint and use the [**rvest**](https://cran.r-project.org/web/packages/rvest/rvest.pdf) package to parse the text from the HTML **body** tag in the response:
+```{r}
+html <- read_html(api_url)
+json <- html %>% html_elements("body") %>% html_text()
+```
+
+## Parse JSON
+With the [**tidyjson**](https://cran.r-project.org/web/packages/tidyjson/vignettes/introduction-to-tidyjson.html) package, we use the **gather_object** function to parse the json into a table, and use the **json_types** function to examine the resulting structure:
+```{r}
+json %>% gather_object %>% json_types
+```
+
+(Note that the table type is a special **tbl_json** object which looks like a dataframe or tibble, but always includes an additional attribute with the original json string. We'll wait until the final step to drop this additional data.)
+
+The **results** object contains the article information we want, so we select it using **enter_object**.  Since it is an array type, we need to use **gather_array** (instead of gather_object) to parse the components into a table.
+
+```{r}
+results <- json %>% 
+  enter_object('results') %>% 
+  gather_array
+```  
+
+Each article (each row in our results table) looks something like this:
+```{r, echo=FALSE}
+kable(head(results,1))
+```
+  
+For each row/article, we want to extract certain fields from the **..JSON** field into their own columns. 
+
+Here we are using the **spread_values** function to define new columns individually instead of using **spread_all** to unpack them all at once, since there is some inconsistency between fields. Some have nulls for list objects (such as _des_facet_) resulting in errors.
+```{r}
+results_dist <- results %>%
+  spread_values(
+    section = jstring(section),
+    title = jstring(title),
+    byline = jstring(byline),
+    abstract = jstring(abstract),
+    created_date = jstring(created_date)
+  ) %>%
+  select(!c(document.id, array.index))
+```
+
+```{r, echo=FALSE}
+kable(head(results_dist,1))
+```
+
+For convenience. we also de-select some of the index data we no lnoger need, such as _document.id_ and _array.index_.
+
+## Convert to DataFrame
+
+Notice we still have all the original json in the _..JSON_ column.  We'll drop that by converting our _tbl_json_ object into a normal dataframe:
+```{r}
+results_df <- results_dist %>% as_data_frame.tbl_json()
+```
+
+The resulting dataframe is tidy and ready for further handling:
+```{r, echo=FALSE}
+kable(results_df)
+```
+

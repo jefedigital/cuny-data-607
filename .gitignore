@@ -1,5 +1,8 @@
 .DS_Store
 
+# Config files
+config.*
+
 # History files
 .Rhistory
 .Rapp.history
