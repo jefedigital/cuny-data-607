@@ -189,7 +189,7 @@
           <ul>
           <li><a href="#assignment">Assignment</a></li>
           <li><a href="#setup">Setup</a></li>
-          <li><a href="#call-api">Call APi</a></li>
+          <li><a href="#call-api">Call API</a></li>
           <li><a href="#parse-json">Parse JSON</a></li>
           <li><a href="#convert-to-dataframe">Convert to DataFrame</a></li>
           </ul>
@@ -234,7 +234,7 @@
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>api_url <span class="ot">&lt;-</span> <span class="fu">str_c</span>(api_endpoint,<span class="st">&#39;?api-key=&#39;</span>,cfg<span class="sc">$</span>app_key)</span></code></pre></div>
 </div>
 <div id="call-api" class="section level2">
-<h2>Call APi</h2>
+<h2>Call API</h2>
 <p>Next. we’ll call this API endpoint and use the <a href="https://cran.r-project.org/web/packages/rvest/rvest.pdf"><strong>rvest</strong></a> package to parse the text from the HTML <strong>body</strong> tag in the response:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>html <span class="ot">&lt;-</span> <span class="fu">read_html</span>(api_url)</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>json <span class="ot">&lt;-</span> html <span class="sc">%&gt;%</span> <span class="fu">html_elements</span>(<span class="st">&quot;body&quot;</span>) <span class="sc">%&gt;%</span> <span class="fu">html_text</span>()</span></code></pre></div>
