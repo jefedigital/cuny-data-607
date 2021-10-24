@@ -1,0 +1,33 @@
+TidyVerse CREATE assignment
+
+
+In this assignment, you’ll practice collaborating around a code project with GitHub.  You could consider our collective work as building out a book of examples on how to use TidyVerse functions.
+
+GitHub repository:  https://github.com/acatlin/FALL2021TIDYVERSE
+
+FiveThirtyEight.com datasets.
+
+Kaggle datasets. 
+
+Your task here is to Create an Example.  Using one or more TidyVerse packages, and any dataset from fivethirtyeight.com or Kaggle, create a programming sample “vignette” that demonstrates how to use one or more of the capabilities of the selected TidyVerse package with your selected dataset. (25 points)
+
+
+You should clone the provided repository.  Once you have code to submit, you should make a pull request on the shared repository.  You should also update the README.md file with your example.
+
+After you’ve created your vignette, please submit your GitHub handle name in the submission link provided below. This will let your instructor know that your work is ready to be peer-graded.
+
+You should complete your submission on the schedule stated in the course syllabus.
+
+
+:::
+
+Tidyverse CREATE Assignment (25 points)
+
+Clone the provided repository (1 point)
+Write a vignette using one TidyVerse package (15 points)
+Write a vignette using more than one TidyVerse packages (+ 2 points) Make a pull request on the shared repository (1 point)
+Update the README.md file with your example (2 points)
+Submit your GitHub handle name & link to Peergrade (1 point)
+Grade your 3 peers and provide the feedback in Peergrade (2 points) Submit the best peer link & your link to Blackboard (1 point)
+
+What is Peergrade?
