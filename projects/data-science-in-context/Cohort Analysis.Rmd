@@ -1,0 +1,65 @@
+---
+title: "Cohort Analysis"
+subtitle: "A Quick Intro"
+author: "Jeff Parks"
+institute: "CUNY DATA 607, F21"
+date: "11/16/2021"
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: inverse, center, middle
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# What is Cohort Analysis?
+
+---
+
+# Clusters of Customers
+
+aka Survival Analysis
+
+---
+class: inverse, center, middle
+
+# How Do We Use Cohort Analysis?
+
+---
+
+# Super Useful
+
+---
+class: inverse, center, middle
+
+# Some Practical Examples
+
+---
+
+# Slice
+
+---
+class: inverse, center, middle
+
+# How to Find Out More
+---
+
+# More Resources
+
+- A Primer on Cohort Analysis<br>
+https://www.khoslaventures.com/a-primer-on-cohort-analysis
+
+- Cohort Analysis that Helps You Look Ahead<br>
+https://mode.com/blog/cohort-analysis-helps-look-ahead/
+
+- Cohort Analysis with R<br>
+http://alexdyachenko.com/all/cohort-analysis-with-r/
+
+- OpenIntro: Survival Analysis in R<br>
+https://www.openintro.org/book/surv_in_r/

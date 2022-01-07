@@ -1,0 +1,1047 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12159586
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Religion 2010 (RCMS)
+Dataset:          RCMS 2010
+Tables:
+
+      1. Total Population 
+         Universe:  Population (2010)
+         Name:      T1
+         Variables:
+            T001_001:   Population (2010)
+
+
+      2. All Religions - Total Number of Congregations
+         Universe:  All Religions - Total Number of Congregations
+         Name:      T2
+         Variables:
+            T002_001:   All Religions - Congregations
+
+
+      3. All Religions - Adherents
+         Universe:  All Religions - Adherents
+         Name:      NV1
+         Variables:
+            NV001_001:   Adherents
+
+
+      4. All Religions - Adherence Rate (% of Population)
+         Universe:  Adherence Rate of Total Population
+         Name:      NV9
+         Variables:
+            NV009_001:   Adherence Rate of Total Population
+
+
+      5. Total Congregations - Major Religions
+         Universe:  Total Congregations - Major Religions
+         Name:      T3
+         Variables:
+            T003_001:   Total Congregations - Major Religions:
+            T003_002:      Evangelical Protestant
+            T003_003:      Black Protestant
+            T003_004:      Mainline Protestant
+            T003_005:      Catholic
+            T003_006:      Orthodox
+            T003_007:      Other
+
+
+      6. Major Religions - Adherents
+         Universe:  Total
+         Name:      NV2
+         Variables:
+            NV002_001:   Total:
+            NV002_002:      Evangelical Protestant
+            NV002_003:      Black Protestant
+            NV002_004:      Mainline Protestant
+            NV002_005:      Catholic
+            NV002_006:      Orthodox
+            NV002_007:      Other
+
+
+      7. Major Religions - Adherence Rate (% of Population)
+         Universe:  Adherence Rate of Total Population
+         Name:      NV10
+         Variables:
+            NV010_001:   Adherence Rate of Total Population:
+            NV010_002:      Evangelical Protestant
+            NV010_003:      Black Protestant
+            NV010_004:      Mainline Protestant
+            NV010_005:      Catholic
+            NV010_006:      Orthodox
+            NV010_007:      Other
+
+
+      8. Evangelical Congregations
+         Universe:  Total Evangelical Congregations
+         Name:      T4
+         Variables:
+            T004_001:   Total Evangelical Congregations:
+            T004_002:      Church of God
+            T004_003:      Allegheny Wesleyan Methodist Connection
+            T004_004:      Amana Church Society
+            T004_005:      Ambassadors Amish Mennonite
+            T004_006:      American Association of Lutheran Churches
+            T004_007:      American Baptist Association
+            T004_008:      American Presbyterian Church
+            T004_009:      Amish groups, undifferentiated
+            T004_010:      Anglican Church in North America
+            T004_011:      Apostolic Christian Church of America, Inc.
+            T004_012:      Apostolic Faith Mission of Portland, OR
+            T004_013:      Apostolic Lutheran Church of America
+            T004_014:      Armenian Evangelical Churches (Additional)
+            T004_015:      Assemblies of God
+            T004_016:      Assemblies of God International Fellowship
+            T004_017:      Associate Reformed Presbyterian Church
+            T004_018:      Association of Free Lutheran Congregations
+            T004_019:      Association of Reformed Baptist Churches of America
+            T004_020:      Beachy Amish Mennonite Churches
+            T004_021:      Berea Amish Mennonite
+            T004_022:      Bible Fellowship Church
+            T004_023:      Bible Presbyterian Church (General Synod)
+            T004_024:      Brethren Church, The (Ashland, Ohio)
+            T004_025:      Brethren in Christ Church
+            T004_026:      Bruderhof Communities, Inc.
+            T004_027:      Calvary Chapel Fellowship Churches
+            T004_028:      Canadian and American Reformed Churches
+            T004_029:      Central Yearly Meeting of Friends
+            T004_030:      Christian and Missionary Alliance 
+            T004_031:      Christian Brethren
+            T004_032:      Christian Churches and Churches of Christ
+            T004_033:      Christian Reformed Church in North America
+            T004_034:      Christian Union
+            T004_035:      Church of Christ (Holiness), U.S.A.
+            T004_036:      Church of God (Anderson, Indiana)
+            T004_037:      Church of God (Cleveland, Tennessee)
+            T004_038:      Church of God (Seventh Day)
+            T004_039:      Church of God by Faith, Inc.
+            T004_040:      Church of God General Conference
+            T004_041:      Church of God in Christ, Mennonite
+            T004_042:      Church of God of Prophecy
+            T004_043:      Church of God of the Apostolic Faith, Inc.
+            T004_044:      Church of God, Mountain Assembly, Inc.
+            T004_045:      Church of the Brethren
+            T004_046:      Church of the Lutheran Brethren of America
+            T004_047:      Church of the Lutheran Confession
+            T004_048:      Church of the Nazarene
+            T004_049:      Church of the United Brethren in Christ
+            T004_050:      Churches of Christ
+            T004_051:      Churches of Christ in Christian Union
+            T004_052:      Churches of God, General Conference
+            T004_053:      Communion of Reformed Evangelical Churches
+            T004_054:      Congregational Holiness Church
+            T004_055:      Congregational Methodist Church
+            T004_056:      Conservative Baptist Association of America
+            T004_057:      Conservative Congregational Christian Conference
+            T004_058:      Conservative Lutheran Association
+            T004_059:      Conservative Mennonite Conference
+            T004_060:      Conservative Yearly Meetings of Friends
+            T004_061:      Convention of Original Free Will Baptists
+            T004_062:      Converge Worldwide/Baptist General Conference
+            T004_063:      Covenant Reformed Presbyterian Church
+            T004_064:      Cumberland Presbyterian Church
+            T004_065:      Elim Fellowship
+            T004_066:      Enterprise Baptists Association
+            T004_067:      Evangelical Association of Reformed and Congregational Christian Churches
+            T004_068:      Evangelical Church
+            T004_069:      Evangelical Congregational Church
+            T004_070:      Evangelical Covenant Church
+            T004_071:      Evangelical Free Church of America
+            T004_072:      Evangelical Friends Church International
+            T004_073:      Evangelical Lutheran Synod
+            T004_074:      Evangelical Methodist Church
+            T004_075:      Evangelical Presbyterian Church
+            T004_076:      Federation of Reformed Churches
+            T004_077:      Fellowship of Evangelical Bible Churches
+            T004_078:      Fellowship of Evangelical Churches
+            T004_079:      Foursquare Gospel
+            T004_080:      Free Church of Scotland (Continuing)
+            T004_081:      Free Methodist Church of North America
+            T004_082:      Free Presbyterian Church of North America
+            T004_083:      Free Reformed Church of North America
+            T004_084:      Fundamental Baptist Fellowship
+            T004_085:      General Association of Regular Baptist Churches
+            T004_086:      Grace Gospel Fellowship
+            T004_087:      Heritage Reformed Churches
+            T004_088:      Hutterian Brethren
+            T004_089:      Independent Baptist Fellowship International
+            T004_090:      Independent Fundamental Churches of America
+            T004_091:      International Churches of Christ
+            T004_092:      International Fellowship of Bible Churches
+            T004_093:      International Fellowship of Christian Assemblies
+            T004_094:      International Pentecostal Church of Christ
+            T004_095:      International Pentecostal Holiness Church
+            T004_096:      Korean Presbyterian Church Abroad
+            T004_097:      Korean Presbyterian Church in America
+            T004_098:      Korean-American Presbyterian Church
+            T004_099:      Lutheran Church--Missouri Synod
+            T004_100:      Lutheran Congregations in Mission for Christ
+            T004_101:      Maranatha Amish Mennonite
+            T004_102:      Mennonite Christian Fellowship
+            T004_103:      Mennonite Church USA
+            T004_104:      Midwest Beachy Amish Mennonite
+            T004_105:      Midwest Congregational Christian Fellowship
+            T004_106:      Missionary Church
+            T004_107:      National Association of Free Will Baptists
+            T004_108:      New Testament Association of Independent Baptist Churches
+            T004_109:      Non-denominational
+            T004_110:      North American Baptist Conference
+            T004_111:      North American Lutheran Church
+            T004_112:      Old Order River Brethren
+            T004_113:      Open Bible Standard Churches, Inc.
+            T004_114:      Orthodox Presbyterian Church
+            T004_115:      Pentecostal Church of God
+            T004_116:      Pentecostal Fire Baptized Holiness Church
+            T004_117:      Pentecostal Free Will Baptist Church, Inc.
+            T004_118:      Pillar of Fire
+            T004_119:      Presbyterian Church in America
+            T004_120:      Presbyterian Reformed Church
+            T004_121:      Primitive Baptists
+            T004_122:      Primitive Methodist Church in the U.S.A.
+            T004_123:      Protestant Reformed Churches in America
+            T004_124:      Reformed Baptist Churches
+            T004_125:      Reformed Church in the United States
+            T004_126:      Reformed Mennonite Church
+            T004_127:      Reformed Presbyterian Church General Assembly
+            T004_128:      Reformed Presbyterian Church Hanover Presbytery
+            T004_129:      Reformed Presbyterian Church in the United States
+            T004_130:      Reformed Presbyterian Church of North America
+            T004_131:      Salvation Army
+            T004_132:      Schwenkfelder Church
+            T004_133:      Seventh Day Baptist General Conference, USA and Canada
+            T004_134:      Seventh-day Adventist Church
+            T004_135:      Southern Baptist Convention
+            T004_136:      Southern Methodist Church
+            T004_137:      Tampico Amish Mennonite
+            T004_138:      U.S. Mennonite Brethren
+            T004_139:      Unaffiliated Conservative Amish Mennonite Church
+            T004_140:      United Pentecostal Church International
+            T004_141:      United Pentecostal Council of the Assemblies of God
+            T004_142:      United Reformed Churches in North America
+            T004_143:      United Zion Church
+            T004_144:      Unity of the Brethren
+            T004_145:      Vineyard USA
+            T004_146:      Wesleyan Church
+            T004_147:      Wisconsin Evangelical Lutheran Synod
+
+
+      9. Evangelical Adherents
+         Universe:  Total
+         Name:      NV3
+         Variables:
+            NV003_001:   Total:
+            NV003_002:      Church of God
+            NV003_003:      Allegheny Wesleyan Methodist Connection
+            NV003_004:      Amana Church Society
+            NV003_005:      Ambassadors Amish Mennonite
+            NV003_006:      American Association of Lutheran Churches
+            NV003_007:      American Baptist Association
+            NV003_008:      American Presbyterian Church
+            NV003_009:      Amish groups, undifferentiated
+            NV003_010:      Anglican Church in North America
+            NV003_011:      Apostolic Christian Church of America, Inc.
+            NV003_012:      Apostolic Faith Mission of Portland, OR
+            NV003_013:      Apostolic Lutheran Church of America
+            NV003_014:      Armenian Evangelical Churches (Additional)
+            NV003_015:      Assemblies of God
+            NV003_016:      Assemblies of God International Fellowship
+            NV003_017:      Associate Reformed Presbyterian Church
+            NV003_018:      Association of Free Lutheran Congregations
+            NV003_019:      Association of Reformed Baptist Churches of America
+            NV003_020:      Beachy Amish Mennonite Churches
+            NV003_021:      Berea Amish Mennonite
+            NV003_022:      Bible Fellowship Church
+            NV003_023:      Bible Presbyterian Church (General Synod)
+            NV003_024:      Brethren Church, The (Ashland, Ohio)
+            NV003_025:      Brethren in Christ Church
+            NV003_026:      Bruderhof Communities, Inc.
+            NV003_027:      Calvary Chapel Fellowship Churches
+            NV003_028:      Canadian and American Reformed Churches
+            NV003_029:      Central Yearly Meeting of Friends
+            NV003_030:      Christian and Missionary Alliance, The
+            NV003_031:      Christian Brethren
+            NV003_032:      Christian Churches and Churches of Christ
+            NV003_033:      Christian Reformed Church in North America
+            NV003_034:      Christian Union
+            NV003_035:      Church of Christ (Holiness), U.S.A.
+            NV003_036:      Church of God (Anderson, Indiana)
+            NV003_037:      Church of God (Cleveland, Tennessee)
+            NV003_038:      Church of God (Seventh Day)
+            NV003_039:      Church of God by Faith, Inc.
+            NV003_040:      Church of God General Conference
+            NV003_041:      Church of God in Christ, Mennonite
+            NV003_042:      Church of God of Prophecy
+            NV003_043:      Church of God of the Apostolic Faith, Inc.
+            NV003_044:      Church of God, Mountain Assembly, Inc.
+            NV003_045:      Church of the Brethren
+            NV003_046:      Church of the Lutheran Brethren of America
+            NV003_047:      Church of the Lutheran Confession
+            NV003_048:      Church of the Nazarene
+            NV003_049:      Church of the United Brethren in Christ
+            NV003_050:      Churches of Christ
+            NV003_051:      Churches of Christ in Christian Union
+            NV003_052:      Churches of God, General Conference
+            NV003_053:      Communion of Reformed Evangelical Churches
+            NV003_054:      Congregational Holiness Church
+            NV003_055:      Congregational Methodist Church
+            NV003_056:      Conservative Baptist Association of America
+            NV003_057:      Conservative Congregational Christian Conference
+            NV003_058:      Conservative Lutheran Association
+            NV003_059:      Conservative Mennonite Conference
+            NV003_060:      Conservative Yearly Meetings of Friends
+            NV003_061:      Convention of Original Free Will Baptists
+            NV003_062:      Converge Worldwide/Baptist General Conference
+            NV003_063:      Covenant Reformed Presbyterian Church
+            NV003_064:      Cumberland Presbyterian Church
+            NV003_065:      Elim Fellowship
+            NV003_066:      Enterprise Baptists Association
+            NV003_067:      Evangelical Association of Reformed and Congregational Christian Churches
+            NV003_068:      Evangelical Church
+            NV003_069:      Evangelical Congregational Church
+            NV003_070:      Evangelical Covenant Church
+            NV003_071:      Evangelical Free Church of America
+            NV003_072:      Evangelical Friends Church International
+            NV003_073:      Evangelical Lutheran Synod
+            NV003_074:      Evangelical Methodist Church
+            NV003_075:      Evangelical Presbyterian Church
+            NV003_076:      Fellowship of Evangelical Bible Churches
+            NV003_077:      Fellowship of Evangelical Churches
+            NV003_078:      Foursquare Gospel
+            NV003_079:      Free Methodist Church of North America
+            NV003_080:      Free Church of Scotland (Continuing)
+            NV003_081:      Free Methodist Church of North America
+            NV003_082:      Free Presbyterian Church of North America
+            NV003_083:      Free Reformed Church of North America
+            NV003_084:      Fundamental Baptist Fellowship
+            NV003_085:      General Association of Regular Baptist Churches
+            NV003_086:      Grace Gospel Fellowship
+            NV003_087:      Heritage Reformed Churches
+            NV003_088:      Hutterian Brethren
+            NV003_089:      Independent Baptist Fellowship International
+            NV003_090:      Independent Fundamental Churches of America
+            NV003_091:      International Churches of Christ
+            NV003_092:      International Fellowship of Bible Churches
+            NV003_093:      International Fellowship of Christian Assemblies
+            NV003_094:      International Pentecostal Church of Christ
+            NV003_095:      International Pentecostal Holiness Church
+            NV003_096:      Korean Presbyterian Church Abroad
+            NV003_097:      Korean Presbyterian Church in America
+            NV003_098:      Korean-American Presbyterian Church
+            NV003_099:      Lutheran Church--Missouri Synod
+            NV003_100:      Lutheran Congregations in Mission for Christ
+            NV003_101:      Maranatha Amish Mennonite
+            NV003_102:      Mennonite Christian Fellowship
+            NV003_103:      Mennonite Church USA
+            NV003_104:      Midwest Beachy Amish Mennonite
+            NV003_105:      Midwest Congregational Christian Fellowship
+            NV003_106:      Missionary Church
+            NV003_107:      National Association of Free Will Baptists
+            NV003_108:      New Testament Association of Independent Baptist Churches
+            NV003_109:      Non-denominational
+            NV003_110:      North American Baptist Conference
+            NV003_111:      North American Lutheran Church
+            NV003_112:      Old Order River Brethren
+            NV003_113:      Open Bible Standard Churches, Inc.
+            NV003_114:      Orthodox Presbyterian Church
+            NV003_115:      Pentecostal Church of God
+            NV003_116:      Pentecostal Fire Baptized Holiness Church
+            NV003_117:      Pentecostal Free Will Baptist Church, Inc.
+            NV003_118:      Pillar of Fire
+            NV003_119:      Presbyterian Church in America
+            NV003_120:      Presbyterian Reformed Church
+            NV003_121:      Primitive Baptists
+            NV003_122:      Primitive Methodist Church in the U.S.A.
+            NV003_123:      Protestant Reformed Churches in America
+            NV003_124:      Reformed Baptist Churches
+            NV003_125:      Reformed Church in the United States
+            NV003_126:      Reformed Mennonite Church
+            NV003_127:      Reformed Presbyterian Church General Assembly
+            NV003_128:      Reformed Presbyterian Church Hanover Presbytery
+            NV003_129:      Reformed Presbyterian Church in the United States
+            NV003_130:      Reformed Presbyterian Church of North America
+            NV003_131:      Salvation Army
+            NV003_132:      Schwenkfelder Church
+            NV003_133:      Seventh Day Baptist General Conference, USA and Canada
+            NV003_134:      Seventh-day Adventist Church
+            NV003_135:      Southern Baptist Convention
+            NV003_136:      Southern Methodist Church
+            NV003_137:      Tampico Amish Mennonite
+            NV003_138:      U.S. Mennonite Brethren
+            NV003_139:      Unaffiliated Conservative Amish Mennonite Church
+            NV003_140:      United Pentecostal Church International
+            NV003_141:      United Pentecostal Council of the Assemblies of God
+            NV003_142:      United Reformed Churches in North America
+            NV003_143:      United Zion Church
+            NV003_144:      Unity of the Brethren
+            NV003_145:      Vineyard USA
+            NV003_146:      Wesleyan Church
+            NV003_147:      Wisconsin Evangelical Lutheran Synod
+
+
+      10. Evangelical Adherence Rate (% of Population)
+          Universe:  Adherence Rate of Total Population
+          Name:      NV11
+          Variables:
+             NV011_001:   Adherence Rate of Total Population:
+             NV011_002:      Church of God
+             NV011_003:      Allegheny Wesleyan Methodist Connection
+             NV011_004:      Amana Church Society
+             NV011_005:      Ambassadors Amish Mennonite
+             NV011_006:      American Association of Lutheran Churches
+             NV011_007:      American Baptist Association
+             NV011_008:      American Presbyterian Church
+             NV011_009:      Amish groups, undifferentiated
+             NV011_010:      Anglican Church in North America
+             NV011_011:      Apostolic Christian Church of America, Inc.
+             NV011_012:      Apostolic Faith Mission of Portland, OR
+             NV011_013:      Apostolic Lutheran Church of America
+             NV011_014:      Armenian Evangelical Churches (Additional)
+             NV011_015:      Assemblies of God
+             NV011_016:      Assemblies of God International Fellowship
+             NV011_017:      Associate Reformed Presbyterian Church
+             NV011_018:      Association of Free Lutheran Congregations
+             NV011_019:      Association of Reformed Baptist Churches of America
+             NV011_020:      Beachy Amish Mennonite Churches
+             NV011_021:      Berea Amish Mennonite
+             NV011_022:      Bible Fellowship Church
+             NV011_023:      Bible Presbyterian Church (General Synod)
+             NV011_024:      Brethren Church, The (Ashland, Ohio)
+             NV011_025:      Brethren in Christ Church
+             NV011_026:      Bruderhof Communities, Inc.
+             NV011_027:      Calvary Chapel Fellowship Churches
+             NV011_028:      Canadian and American Reformed Churches
+             NV011_029:      Central Yearly Meeting of Friends
+             NV011_030:      Christian and Missionary Alliance
+             NV011_031:      Christian Brethren
+             NV011_032:      Christian Churches and Churches of Christ
+             NV011_033:      Christian Reformed Church in North America
+             NV011_034:      Christian Union
+             NV011_035:      Church of Christ (Holiness), U.S.A.
+             NV011_036:      Church of God (Anderson, Indiana)
+             NV011_037:      Church of God (Cleveland, Tennessee)
+             NV011_038:      Church of God (Seventh Day)
+             NV011_039:      Church of God by Faith, Inc.
+             NV011_040:      Church of God General Conference
+             NV011_041:      Church of God in Christ, Mennonite
+             NV011_042:      Church of God of Prophecy
+             NV011_043:      Church of God of the Apostolic Faith, Inc.
+             NV011_044:      Church of God, Mountain Assembly, Inc.
+             NV011_045:      Church of the Brethren
+             NV011_046:      Church of the Lutheran Brethren of America
+             NV011_047:      Church of the Lutheran Confession
+             NV011_048:      Church of the Nazarene
+             NV011_049:      Church of the United Brethren in Christ
+             NV011_050:      Churches of Christ
+             NV011_051:      Churches of Christ in Christian Union
+             NV011_052:      Churches of God, General Conference
+             NV011_053:      Communion of Reformed Evangelical Churches
+             NV011_054:      Congregational Holiness Church
+             NV011_055:      Congregational Methodist Church
+             NV011_056:      Conservative Baptist Association of America
+             NV011_057:      Conservative Congregational Christian Conference
+             NV011_058:      Conservative Lutheran Association
+             NV011_059:      Conservative Mennonite Conference
+             NV011_060:      Conservative Yearly Meetings of Friends
+             NV011_061:      Convention of Original Free Will Baptists
+             NV011_062:      Converge Worldwide/Baptist General Conference
+             NV011_063:      Covenant Reformed Presbyterian Church
+             NV011_064:      Cumberland Presbyterian Church
+             NV011_065:      Elim Fellowship
+             NV011_066:      Enterprise Baptists Association
+             NV011_067:      Evangelical Association of Reformed and Congregational Christian Churches
+             NV011_068:      Evangelical Church, The
+             NV011_069:      Evangelical Congregational Church
+             NV011_070:      Evangelical Covenant Church
+             NV011_071:      Evangelical Free Church of America
+             NV011_072:      Evangelical Friends Church International
+             NV011_073:      Evangelical Lutheran Synod
+             NV011_074:      Evangelical Methodist Church
+             NV011_075:      Evangelical Presbyterian Church
+             NV011_076:      Federation of Reformed Churches
+             NV011_077:      Fellowship of Evangelical Bible Churches
+             NV011_078:      Fellowship of Evangelical Churches
+             NV011_079:      Foursquare Gospel
+             NV011_080:      Free Church of Scotland (Continuing)
+             NV011_081:      Free Methodist Church of North America
+             NV011_082:      Free Presbyterian Church of North America
+             NV011_083:      Free Reformed Church of North America
+             NV011_084:      Fundamental Baptist Fellowship
+             NV011_085:      General Association of Regular Baptist Churches
+             NV011_086:      Grace Gospel Fellowship
+             NV011_087:      Heritage Reformed Churches
+             NV011_088:      Hutterian Brethren
+             NV011_089:      Independent Baptist Fellowship International
+             NV011_090:      Independent Fundamental Churches of America
+             NV011_091:      International Churches of Christ
+             NV011_092:      International Fellowship of Bible Churches
+             NV011_093:      International Fellowship of Christian Assemblies
+             NV011_094:      International Pentecostal Church of Christ
+             NV011_095:      International Pentecostal Holiness Church
+             NV011_096:      Korean Presbyterian Church Abroad
+             NV011_097:      Korean Presbyterian Church in America
+             NV011_098:      Korean-American Presbyterian Church
+             NV011_099:      Lutheran Church--Missouri Synod
+             NV011_100:      Lutheran Congregations in Mission for Christ
+             NV011_101:      Maranatha Amish Mennonite
+             NV011_102:      Mennonite Christian Fellowship
+             NV011_103:      Mennonite Church USA
+             NV011_104:      Midwest Beachy Amish Mennonite
+             NV011_105:      Midwest Congregational Christian Fellowship
+             NV011_106:      Missionary Church, The
+             NV011_107:      National Association of Free Will Baptists
+             NV011_108:      New Testament Association of Independent Baptist Churches
+             NV011_109:      Non-denominational
+             NV011_110:      North American Baptist Conference
+             NV011_111:      North American Lutheran Church
+             NV011_112:      Old Order River Brethren
+             NV011_113:      Open Bible Standard Churches, Inc.
+             NV011_114:      Orthodox Presbyterian Church
+             NV011_115:      Pentecostal Church of God
+             NV011_116:      Pentecostal Fire Baptized Holiness Church
+             NV011_117:      Pentecostal Free Will Baptist Church, Inc.
+             NV011_118:      Pillar of Fire
+             NV011_119:      Presbyterian Church in America
+             NV011_120:      Presbyterian Reformed Church
+             NV011_121:      Primitive Baptists
+             NV011_122:      Primitive Methodist Church in the U.S.A.
+             NV011_123:      Protestant Reformed Churches in America
+             NV011_124:      Reformed Baptist Churches
+             NV011_125:      Reformed Church in the United States
+             NV011_126:      Reformed Mennonite Church
+             NV011_127:      Reformed Presbyterian Church General Assembly
+             NV011_128:      Reformed Presbyterian Church Hanover Presbytery
+             NV011_129:      Reformed Presbyterian Church in the United States
+             NV011_130:      Reformed Presbyterian Church of North America
+             NV011_131:      Salvation Army
+             NV011_132:      Schwenkfelder Church
+             NV011_133:      Seventh Day Baptist General Conference, USA and Canada
+             NV011_134:      Seventh-day Adventist Church
+             NV011_135:      Southern Baptist Convention
+             NV011_136:      Southern Methodist Church
+             NV011_137:      Tampico Amish Mennonite
+             NV011_138:      U.S. Mennonite Brethren
+             NV011_139:      Unaffiliated Conservative Amish Mennonite Church
+             NV011_140:      United Pentecostal Church International
+             NV011_141:      United Pentecostal Council of the Assemblies of God
+             NV011_142:      United Reformed Churches in North America
+             NV011_143:      United Zion Church
+             NV011_144:      Unity of the Brethren
+             NV011_145:      Vineyard USA
+             NV011_146:      Wesleyan Church
+             NV011_147:      Wisconsin Evangelical Lutheran Synod
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      Name:           Name of Area
+      QName:          Qualifying Name
+      T001_001:       Population (2010)
+      T002_001:       All Religious Congregations
+      NV001_001:      All Religious Adherents
+      NV009_001:      All Religious Adherence Rate of Total Population
+      T003_001:       Total Congregations - Major Religions
+      T003_002:       Evangelical Protestant Congregations
+      T003_003:       Black Protestant Congregations
+      T003_004:       Mainline Protestant Congregations
+      T003_005:       Catholic Congregations
+      T003_006:       Orthodox Congregations
+      T003_007:       Other Congregations
+      NV002_001:      Total Adherents - Major Religions
+      NV002_002:      Evangelical Protestant Congregations
+      NV002_003:      Black Protestant Congregations
+      NV002_004:      Mainline Protestant Congregations
+      NV002_005:      Catholic Congregations
+      NV002_006:      Orthodox Congregations
+      NV002_007:      Other Congregations
+      NV010_001:      Major Religions - Adherence Rate (% of Population)
+      NV010_002:      Evangelical Protestant
+      NV010_003:      Black Protestant
+      NV010_004:      Mainline Protestant
+      NV010_005:      Catholic
+      NV010_006:      Orthodox
+      NV010_007:      Other
+      T004_001:       Total Evangelical Congregations
+      T004_002:       Church of God Congregations
+      T004_003:       Allegheny Wesleyan Methodist Connection Congregations
+      T004_004:       Amana Church Society Congregations
+      T004_005:       Ambassadors Amish Mennonite Congregations
+      T004_006:       American Association of Lutheran Churches Congregations
+      T004_007:       American Baptist Association Congregations
+      T004_008:       American Presbyterian Church Congregations
+      T004_009:       Amish groups, undifferentiated Congregations
+      T004_010:       Anglican Church in North America Congregations
+      T004_011:       Apostolic Christian Church of America, Inc. Congregations
+      T004_012:       Apostolic Faith Mission of Portland, OR Congregations
+      T004_013:       Apostolic Lutheran Church of America Congregations 
+      T004_014:       Armenian Evangelical Churches (Additional) Congregations
+      T004_015:       Assemblies of God Congregations
+      T004_016:       Assemblies of God International Fellowship Congregations
+      T004_017:       Associate Reformed Presbyterian Church Congregations
+      T004_018:       Association of Free Lutheran Congregations 
+      T004_019:       Association of Reformed Baptist Churches of America Congregations
+      T004_020:       Beachy Amish Mennonite Churches Congregations
+      T004_021:       Berea Amish Mennonite Congregations
+      T004_022:       Bible Fellowship Church Congregations
+      T004_023:       Bible Presbyterian Church (General Synod) Congregations
+      T004_024:       Brethren Church, The (Ashland, Ohio) Congregations
+      T004_025:       Brethren in Christ Church Congregations
+      T004_026:       Bruderhof Communities, Inc. Congregations
+      T004_027:       Calvary Chapel Fellowship Churches Congregations
+      T004_028:       Canadian and American Reformed Churches Congregations
+      T004_029:       Central Yearly Meeting of Friends Congregations
+      T004_030:       Christian and Missionary Alliance Congregations
+      T004_031:       Christian Brethren Congregations
+      T004_032:       Christian Churches and Churches of Christ Congregations
+      T004_033:       Christian Reformed Church in North America Congregations
+      T004_034:       Christian Union Congregations
+      T004_035:       Church of Christ (Holiness), U.S.A. Congregations
+      T004_036:       Church of God (Anderson, Indiana) Congregations
+      T004_037:       Church of God (Cleveland, Tennessee) Congregations
+      T004_038:       Church of God (Seventh Day) Congregations
+      T004_039:       Church of God by Faith, Inc. Congregations
+      T004_040:       Church of God General Conference Congregations
+      T004_041:       Church of God in Christ, Mennonite Congregations
+      T004_042:       Church of God of Prophecy Congregations
+      T004_043:       Church of God of the Apostolic Faith, Inc. Congregations
+      T004_044:       Church of God, Mountain Assembly, Inc. Congregations
+      T004_045:       Church of the Brethren Congregations
+      T004_046:       Church of the Lutheran Brethren of America Congregations
+      T004_047:       Church of the Lutheran Confession Congregations
+      T004_048:       Church of the Nazarene Congregations
+      T004_049:       Church of the United Brethren in Christ Congregations
+      T004_050:       Churches of Christ Congregations
+      T004_051:       Churches of Christ in Christian Union Congregations
+      T004_052:       Churches of God, General Conference Congregations
+      T004_053:       Communion of Reformed Evangelical Churches Congregations
+      T004_054:       Congregational Holiness Church 
+      T004_055:       Congregational Methodist Church 
+      T004_056:       Conservative Baptist Association of America Congregations
+      T004_057:       Conservative Congregational Christian Conference 
+      T004_058:       Conservative Lutheran Association Congregations
+      T004_059:       Conservative Mennonite Conference Congregations
+      T004_060:       Conservative Yearly Meetings of Friends Congregations
+      T004_061:       Convention of Original Free Will Baptists Congregations
+      T004_062:       Converge Worldwide/Baptist General Conference Congregations
+      T004_063:       Covenant Reformed Presbyterian Church Congregations
+      T004_064:       Cumberland Presbyterian Church Congregations
+      T004_065:       Elim Fellowship Congregations
+      T004_066:       Enterprise Baptists Association Congregations
+      T004_067:       Evangelical Association of Reformed and Congregational Christian Churches
+      T004_068:       Evangelical Church Congregations
+      T004_069:       Evangelical Congregational Church Congregations
+      T004_070:       Evangelical Covenant Church Congregations
+      T004_071:       Evangelical Free Church of America Congregations
+      T004_072:       Evangelical Friends Church International Congregations
+      T004_073:       Evangelical Lutheran Synod Congregations
+      T004_074:       Evangelical Methodist Church Congregations
+      T004_075:       Evangelical Presbyterian Church Congregations
+      T004_076:       Federation of Reformed Churches Congregations
+      T004_077:       Fellowship of Evangelical Bible Churches Congregations
+      T004_078:       Fellowship of Evangelical Churches Congregations
+      T004_079:       Foursquare Gospel Congregations
+      T004_080:       Free Church of Scotland (Continuing) Congregations
+      T004_081:       Free Methodist Church of North America Congregations
+      T004_082:       Free Presbyterian Church of North America Congregations
+      T004_083:       Free Reformed Church of North America Congregations
+      T004_084:       Fundamental Baptist Fellowship Congregations
+      T004_085:       General Association of Regular Baptist Churches Congregations
+      T004_086:       Grace Gospel Fellowship Congregations
+      T004_087:       Heritage Reformed Churches Congregations
+      T004_088:       Hutterian Brethren Congregations
+      T004_089:       Independent Baptist Fellowship International Congregations
+      T004_090:       Independent Fundamental Churches of America Congregations
+      T004_091:       International Churches of Christ Congregations
+      T004_092:       International Fellowship of Bible Churches Congregations
+      T004_093:       International Fellowship of Christian Assemblies Congregations
+      T004_094:       International Pentecostal Church of Christ Congregations
+      T004_095:       International Pentecostal Holiness Church Congregations
+      T004_096:       Korean Presbyterian Church Abroad Congregations
+      T004_097:       Korean Presbyterian Church in America Congregations
+      T004_098:       Korean-American Presbyterian Church Congregations
+      T004_099:       Lutheran Church--Missouri Synod Congregations
+      T004_100:       Lutheran Congregations in Mission for Christ Congregations
+      T004_101:       Maranatha Amish Mennonite Congregations
+      T004_102:       Mennonite Christian Fellowship Congregations
+      T004_103:       Mennonite Church USA Congregations
+      T004_104:       Midwest Beachy Amish Mennonite Congregations
+      T004_105:       Midwest Congregational Christian Fellowship Congregations
+      T004_106:       Missionary Church Congregations
+      T004_107:       National Association of Free Will Baptists Congregations
+      T004_108:       New Testament Association of Independent Baptist Churches Congregations
+      T004_109:       Non-denominational Congregations
+      T004_110:       North American Baptist Conference Congregations
+      T004_111:       North American Lutheran Church Congregations
+      T004_112:       Old Order River Brethren Congregations
+      T004_113:       Open Bible Standard Churches, Inc. Congregations
+      T004_114:       Orthodox Presbyterian Church Congregations
+      T004_115:       Pentecostal Church of God Congregations
+      T004_116:       Pentecostal Fire Baptized Holiness Church Congregations
+      T004_117:       Pentecostal Free Will Baptist Church, Inc. Congregations
+      T004_118:       Pillar of Fire Congregations
+      T004_119:       Presbyterian Church in America Congregations
+      T004_120:       Presbyterian Reformed Church Congregations
+      T004_121:       Primitive Baptists Congregations
+      T004_122:       Primitive Methodist Church in the U.S.A. Congregations
+      T004_123:       Protestant Reformed Churches in America Congregations
+      T004_124:       Reformed Baptist Churches Congregations
+      T004_125:       Reformed Church in the United States Congregations
+      T004_126:       Reformed Mennonite Church Congregations
+      T004_127:       Reformed Presbyterian Church General Assembly Congregations
+      T004_128:       Reformed Presbyterian Church Hanover Presbytery Congregations
+      T004_129:       Reformed Presbyterian Church in the United States Congregations
+      T004_130:       Reformed Presbyterian Church of North America Congregations
+      T004_131:       Salvation Army Congregations
+      T004_132:       Schwenkfelder Church Congregations
+      T004_133:       Seventh Day Baptist General Conference, USA and Canada Congregations
+      T004_134:       Seventh-day Adventist Church Congregations
+      T004_135:       Southern Baptist Convention Congregations
+      T004_136:       Southern Methodist Church Congregations
+      T004_137:       Tampico Amish Mennonite Congregations
+      T004_138:       U.S. Mennonite Brethren Congregations
+      T004_139:       Unaffiliated Conservative Amish Mennonite Church Congregations
+      T004_140:       United Pentecostal Church International Congregations
+      T004_141:       United Pentecostal Council of the Assemblies of God Congregations
+      T004_142:       United Reformed Churches in North America Congregations
+      T004_143:       United Zion Church Congregations
+      T004_144:       Unity of the Brethren Congregations
+      T004_145:       Vineyard USA Congregations
+      T004_146:       Wesleyan Church Congregations
+      T004_147:       Wisconsin Evangelical Lutheran Synod Congregations
+      NV003_001:      Total Evangelical Adherents
+      NV003_002:      Church of God
+      NV003_003:      Allegheny Wesleyan Methodist Connection
+      NV003_004:      Amana Church Society
+      NV003_005:      Ambassadors Amish Mennonite
+      NV003_006:      American Association of Lutheran Churches
+      NV003_007:      American Baptist Association
+      NV003_008:      American Presbyterian Church
+      NV003_009:      Amish groups, undifferentiated
+      NV003_010:      Anglican Church in North America
+      NV003_011:      Apostolic Christian Church of America, Inc.
+      NV003_012:      Apostolic Faith Mission of Portland, OR
+      NV003_013:      Apostolic Lutheran Church of America
+      NV003_014:      Armenian Evangelical Churches (Additional)
+      NV003_015:      Assemblies of God
+      NV003_016:      Assemblies of God International Fellowship
+      NV003_017:      Associate Reformed Presbyterian Church
+      NV003_018:      Association of Free Lutheran Congregations
+      NV003_019:      Association of Reformed Baptist Churches of America
+      NV003_020:      Beachy Amish Mennonite Churches
+      NV003_021:      Berea Amish Mennonite
+      NV003_022:      Bible Fellowship Church
+      NV003_023:      Bible Presbyterian Church (General Synod)
+      NV003_024:      Brethren Church, The (Ashland, Ohio)
+      NV003_025:      Brethren in Christ Church
+      NV003_026:      Bruderhof Communities, Inc.
+      NV003_027:      Calvary Chapel Fellowship Churches
+      NV003_028:      Canadian and American Reformed Churches
+      NV003_029:      Central Yearly Meeting of Friends
+      NV003_030:      Christian and Missionary Alliance, The
+      NV003_031:      Christian Brethren
+      NV003_032:      Christian Churches and Churches of Christ
+      NV003_033:      Christian Reformed Church in North America
+      NV003_034:      Christian Union
+      NV003_035:      Church of Christ (Holiness), U.S.A.
+      NV003_036:      Church of God (Anderson, Indiana)
+      NV003_037:      Church of God (Cleveland, Tennessee)
+      NV003_038:      Church of God (Seventh Day)
+      NV003_039:      Church of God by Faith, Inc.
+      NV003_040:      Church of God General Conference
+      NV003_041:      Church of God in Christ, Mennonite
+      NV003_042:      Church of God of Prophecy
+      NV003_043:      Church of God of the Apostolic Faith, Inc.
+      NV003_044:      Church of God, Mountain Assembly, Inc.
+      NV003_045:      Church of the Brethren
+      NV003_046:      Church of the Lutheran Brethren of America
+      NV003_047:      Church of the Lutheran Confession
+      NV003_048:      Church of the Nazarene
+      NV003_049:      Church of the United Brethren in Christ
+      NV003_050:      Churches of Christ
+      NV003_051:      Churches of Christ in Christian Union
+      NV003_052:      Churches of God, General Conference
+      NV003_053:      Communion of Reformed Evangelical Churches
+      NV003_054:      Congregational Holiness Church
+      NV003_055:      Congregational Methodist Church
+      NV003_056:      Conservative Baptist Association of America
+      NV003_057:      Conservative Congregational Christian Conference
+      NV003_058:      Conservative Lutheran Association
+      NV003_059:      Conservative Mennonite Conference
+      NV003_060:      Conservative Yearly Meetings of Friends
+      NV003_061:      Convention of Original Free Will Baptists
+      NV003_062:      Converge Worldwide/Baptist General Conference
+      NV003_063:      Covenant Reformed Presbyterian Church
+      NV003_064:      Cumberland Presbyterian Church
+      NV003_065:      Elim Fellowship
+      NV003_066:      Enterprise Baptists Association
+      NV003_067:      Evangelical Association of Reformed and Congregational Christian Churches
+      NV003_068:      Evangelical Church
+      NV003_069:      Evangelical Congregational Church
+      NV003_070:      Evangelical Covenant Church
+      NV003_071:      Evangelical Free Church of America
+      NV003_072:      Evangelical Friends Church International
+      NV003_073:      Evangelical Lutheran Synod
+      NV003_074:      Evangelical Methodist Church
+      NV003_075:      Evangelical Presbyterian Church
+      NV003_076:      Fellowship of Evangelical Bible Churches
+      NV003_077:      Fellowship of Evangelical Churches
+      NV003_078:      Foursquare Gospel
+      NV003_079:      Free Methodist Church of North America
+      NV003_080:      Free Church of Scotland (Continuing)
+      NV003_081:      Free Methodist Church of North America
+      NV003_082:      Free Presbyterian Church of North America
+      NV003_083:      Free Reformed Church of North America
+      NV003_084:      Fundamental Baptist Fellowship
+      NV003_085:      General Association of Regular Baptist Churches
+      NV003_086:      Grace Gospel Fellowship
+      NV003_087:      Heritage Reformed Churches
+      NV003_088:      Hutterian Brethren
+      NV003_089:      Independent Baptist Fellowship International
+      NV003_090:      Independent Fundamental Churches of America
+      NV003_091:      International Churches of Christ
+      NV003_092:      International Fellowship of Bible Churches
+      NV003_093:      International Fellowship of Christian Assemblies
+      NV003_094:      International Pentecostal Church of Christ
+      NV003_095:      International Pentecostal Holiness Church
+      NV003_096:      Korean Presbyterian Church Abroad
+      NV003_097:      Korean Presbyterian Church in America
+      NV003_098:      Korean-American Presbyterian Church
+      NV003_099:      Lutheran Church--Missouri Synod
+      NV003_100:      Lutheran Congregations in Mission for Christ
+      NV003_101:      Maranatha Amish Mennonite
+      NV003_102:      Mennonite Christian Fellowship
+      NV003_103:      Mennonite Church USA
+      NV003_104:      Midwest Beachy Amish Mennonite
+      NV003_105:      Midwest Congregational Christian Fellowship
+      NV003_106:      Missionary Church
+      NV003_107:      National Association of Free Will Baptists
+      NV003_108:      New Testament Association of Independent Baptist Churches
+      NV003_109:      Non-denominational
+      NV003_110:      North American Baptist Conference
+      NV003_111:      North American Lutheran Church
+      NV003_112:      Old Order River Brethren
+      NV003_113:      Open Bible Standard Churches, Inc.
+      NV003_114:      Orthodox Presbyterian Church
+      NV003_115:      Pentecostal Church of God
+      NV003_116:      Pentecostal Fire Baptized Holiness Church
+      NV003_117:      Pentecostal Free Will Baptist Church, Inc.
+      NV003_118:      Pillar of Fire
+      NV003_119:      Presbyterian Church in America
+      NV003_120:      Presbyterian Reformed Church
+      NV003_121:      Primitive Baptists
+      NV003_122:      Primitive Methodist Church in the U.S.A.
+      NV003_123:      Protestant Reformed Churches in America
+      NV003_124:      Reformed Baptist Churches
+      NV003_125:      Reformed Church in the United States
+      NV003_126:      Reformed Mennonite Church
+      NV003_127:      Reformed Presbyterian Church General Assembly
+      NV003_128:      Reformed Presbyterian Church Hanover Presbytery
+      NV003_129:      Reformed Presbyterian Church in the United States
+      NV003_130:      Reformed Presbyterian Church of North America
+      NV003_131:      Salvation Army
+      NV003_132:      Schwenkfelder Church
+      NV003_133:      Seventh Day Baptist General Conference, USA and Canada
+      NV003_134:      Seventh-day Adventist Church
+      NV003_135:      Southern Baptist Convention
+      NV003_136:      Southern Methodist Church
+      NV003_137:      Tampico Amish Mennonite
+      NV003_138:      U.S. Mennonite Brethren
+      NV003_139:      Unaffiliated Conservative Amish Mennonite Church
+      NV003_140:      United Pentecostal Church International
+      NV003_141:      United Pentecostal Council of the Assemblies of God
+      NV003_142:      United Reformed Churches in North America
+      NV003_143:      United Zion Church
+      NV003_144:      Unity of the Brethren
+      NV003_145:      Vineyard USA
+      NV003_146:      Wesleyan Church
+      NV003_147:      Wisconsin Evangelical Lutheran Synod
+      NV011_001:      Evangelical Adherence Rate (% of Population)
+      NV011_002:      Church of God
+      NV011_003:      Allegheny Wesleyan Methodist Connection
+      NV011_004:      Amana Church Society
+      NV011_005:      Ambassadors Amish Mennonite
+      NV011_006:      American Association of Lutheran Churches
+      NV011_007:      American Baptist Association
+      NV011_008:      American Presbyterian Church
+      NV011_009:      Amish groups, undifferentiated
+      NV011_010:      Anglican Church in North America
+      NV011_011:      Apostolic Christian Church of America, Inc.
+      NV011_012:      Apostolic Faith Mission of Portland, OR
+      NV011_013:      Apostolic Lutheran Church of America
+      NV011_014:      Armenian Evangelical Churches (Additional)
+      NV011_015:      Assemblies of God
+      NV011_016:      Assemblies of God International Fellowship
+      NV011_017:      Associate Reformed Presbyterian Church
+      NV011_018:      Association of Free Lutheran Congregations
+      NV011_019:      Association of Reformed Baptist Churches of America
+      NV011_020:      Beachy Amish Mennonite Churches
+      NV011_021:      Berea Amish Mennonite
+      NV011_022:      Bible Fellowship Church
+      NV011_023:      Bible Presbyterian Church (General Synod)
+      NV011_024:      Brethren Church, The (Ashland, Ohio)
+      NV011_025:      Brethren in Christ Church
+      NV011_026:      Bruderhof Communities, Inc.
+      NV011_027:      Calvary Chapel Fellowship Churches
+      NV011_028:      Canadian and American Reformed Churches
+      NV011_029:      Central Yearly Meeting of Friends
+      NV011_030:      Christian and Missionary Alliance
+      NV011_031:      Christian Brethren
+      NV011_032:      Christian Churches and Churches of Christ
+      NV011_033:      Christian Reformed Church in North America
+      NV011_034:      Christian Union
+      NV011_035:      Church of Christ (Holiness), U.S.A.
+      NV011_036:      Church of God (Anderson, Indiana)
+      NV011_037:      Church of God (Cleveland, Tennessee)
+      NV011_038:      Church of God (Seventh Day)
+      NV011_039:      Church of God by Faith, Inc.
+      NV011_040:      Church of God General Conference
+      NV011_041:      Church of God in Christ, Mennonite
+      NV011_042:      Church of God of Prophecy
+      NV011_043:      Church of God of the Apostolic Faith, Inc.
+      NV011_044:      Church of God, Mountain Assembly, Inc.
+      NV011_045:      Church of the Brethren
+      NV011_046:      Church of the Lutheran Brethren of America
+      NV011_047:      Church of the Lutheran Confession
+      NV011_048:      Church of the Nazarene
+      NV011_049:      Church of the United Brethren in Christ
+      NV011_050:      Churches of Christ
+      NV011_051:      Churches of Christ in Christian Union
+      NV011_052:      Churches of God, General Conference
+      NV011_053:      Communion of Reformed Evangelical Churches
+      NV011_054:      Congregational Holiness Church
+      NV011_055:      Congregational Methodist Church
+      NV011_056:      Conservative Baptist Association of America
+      NV011_057:      Conservative Congregational Christian Conference
+      NV011_058:      Conservative Lutheran Association
+      NV011_059:      Conservative Mennonite Conference
+      NV011_060:      Conservative Yearly Meetings of Friends
+      NV011_061:      Convention of Original Free Will Baptists
+      NV011_062:      Converge Worldwide/Baptist General Conference
+      NV011_063:      Covenant Reformed Presbyterian Church
+      NV011_064:      Cumberland Presbyterian Church
+      NV011_065:      Elim Fellowship
+      NV011_066:      Enterprise Baptists Association
+      NV011_067:      Evangelical Association of Reformed and Congregational Christian Churches
+      NV011_068:      Evangelical Church, The
+      NV011_069:      Evangelical Congregational Church
+      NV011_070:      Evangelical Covenant Church
+      NV011_071:      Evangelical Free Church of America
+      NV011_072:      Evangelical Friends Church International
+      NV011_073:      Evangelical Lutheran Synod
+      NV011_074:      Evangelical Methodist Church
+      NV011_075:      Evangelical Presbyterian Church
+      NV011_076:      Federation of Reformed Churches
+      NV011_077:      Fellowship of Evangelical Bible Churches
+      NV011_078:      Fellowship of Evangelical Churches
+      NV011_079:      Foursquare Gospel
+      NV011_080:      Free Church of Scotland (Continuing)
+      NV011_081:      Free Methodist Church of North America
+      NV011_082:      Free Presbyterian Church of North America
+      NV011_083:      Free Reformed Church of North America
+      NV011_084:      Fundamental Baptist Fellowship
+      NV011_085:      General Association of Regular Baptist Churches
+      NV011_086:      Grace Gospel Fellowship
+      NV011_087:      Heritage Reformed Churches
+      NV011_088:      Hutterian Brethren
+      NV011_089:      Independent Baptist Fellowship International
+      NV011_090:      Independent Fundamental Churches of America
+      NV011_091:      International Churches of Christ
+      NV011_092:      International Fellowship of Bible Churches
+      NV011_093:      International Fellowship of Christian Assemblies
+      NV011_094:      International Pentecostal Church of Christ
+      NV011_095:      International Pentecostal Holiness Church
+      NV011_096:      Korean Presbyterian Church Abroad
+      NV011_097:      Korean Presbyterian Church in America
+      NV011_098:      Korean-American Presbyterian Church
+      NV011_099:      Lutheran Church--Missouri Synod
+      NV011_100:      Lutheran Congregations in Mission for Christ
+      NV011_101:      Maranatha Amish Mennonite
+      NV011_102:      Mennonite Christian Fellowship
+      NV011_103:      Mennonite Church USA
+      NV011_104:      Midwest Beachy Amish Mennonite
+      NV011_105:      Midwest Congregational Christian Fellowship
+      NV011_106:      Missionary Church, The
+      NV011_107:      National Association of Free Will Baptists
+      NV011_108:      New Testament Association of Independent Baptist Churches
+      NV011_109:      Non-denominational
+      NV011_110:      North American Baptist Conference
+      NV011_111:      North American Lutheran Church
+      NV011_112:      Old Order River Brethren
+      NV011_113:      Open Bible Standard Churches, Inc.
+      NV011_114:      Orthodox Presbyterian Church
+      NV011_115:      Pentecostal Church of God
+      NV011_116:      Pentecostal Fire Baptized Holiness Church
+      NV011_117:      Pentecostal Free Will Baptist Church, Inc.
+      NV011_118:      Pillar of Fire
+      NV011_119:      Presbyterian Church in America
+      NV011_120:      Presbyterian Reformed Church
+      NV011_121:      Primitive Baptists
+      NV011_122:      Primitive Methodist Church in the U.S.A.
+      NV011_123:      Protestant Reformed Churches in America
+      NV011_124:      Reformed Baptist Churches
+      NV011_125:      Reformed Church in the United States
+      NV011_126:      Reformed Mennonite Church
+      NV011_127:      Reformed Presbyterian Church General Assembly
+      NV011_128:      Reformed Presbyterian Church Hanover Presbytery
+      NV011_129:      Reformed Presbyterian Church in the United States
+      NV011_130:      Reformed Presbyterian Church of North America
+      NV011_131:      Salvation Army
+      NV011_132:      Schwenkfelder Church
+      NV011_133:      Seventh Day Baptist General Conference, USA and Canada
+      NV011_134:      Seventh-day Adventist Church
+      NV011_135:      Southern Baptist Convention
+      NV011_136:      Southern Methodist Church
+      NV011_137:      Tampico Amish Mennonite
+      NV011_138:      U.S. Mennonite Brethren
+      NV011_139:      Unaffiliated Conservative Amish Mennonite Church
+      NV011_140:      United Pentecostal Church International
+      NV011_141:      United Pentecostal Council of the Assemblies of God
+      NV011_142:      United Reformed Churches in North America
+      NV011_143:      United Zion Church
+      NV011_144:      Unity of the Brethren
+      NV011_145:      Vineyard USA
+      NV011_146:      Wesleyan Church
+      NV011_147:      Wisconsin Evangelical Lutheran Synod
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2019
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12159586
+
+If you have any questions contact info@socialexplorer.com

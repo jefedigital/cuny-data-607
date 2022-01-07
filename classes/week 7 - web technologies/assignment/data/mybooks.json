@@ -1,0 +1,35 @@
+{
+    "mybooks":
+    [
+        {
+            "title": "The Functional Art",
+            "subtitle": "An introduction to information graphics and visualization",
+            "authors": "Cairo, Alberto",
+            "publisher": "New Riders",
+            "year": "2013",
+            "isbn": "978-0-321-83473-7",
+            "rating": "4.4",
+            "categories": "Information visualization, Computer graphics, Optical images, Charts, diagrams, etc"
+        },
+        {
+            "title": "How to Measure Anything, 3rd Edition",
+            "subtitle": "Finding the value of intangibles in business",
+            "authors": "Hubbard, Douglas W.",
+            "publisher": "Wiley",
+            "year": "2014",
+            "isbn": "978-1-118-53927-9",
+            "rating": "4.5",
+            "categories": "Intangible property - Valuation"
+        },
+        {
+            "title": "R for Data Science",
+            "subtitle": "Import, Tidy, Transform, Visualize and Model Data",
+            "authors": "Wickham, Hadley; Grolemund, Garrett",
+            "publisher": "O'Reilly",
+            "year": "2017",
+            "isbn": "978-1-491-91039-9",
+            "rating": "4.7",
+            "categories": "R, Big data, Databases, Electronic data processing, Statistics - Data processing, Data mining, Information vizualization"
+        }
+    ]
+}

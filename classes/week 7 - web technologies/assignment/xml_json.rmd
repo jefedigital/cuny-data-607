@@ -1,0 +1,29 @@
+---
+title: "Working with XML & JSON"
+author: "Jeff Parks"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+# chunks
+knitr::opts_chunk$set(echo=FALSE, include=TRUE, 
+message=FALSE, warning=FALSE, fig.show="hold", 
+out.width="50%", fig.height=4)
+
+# libraries
+library(tidyverse)
+
+# ggplot
+theme_set(theme_minimal())
+```
+
+### HTML
+
+```{r}
+library(textreadr)
+mybooks_html <- read_html('data/mybooks.html')
+```
+
+```{r}
+mybooks_json <- read_html('data/mybooks.html')
+```
